@@ -95,14 +95,14 @@ def debug(string, num_mutations, b_prob):
 #             sys.stdout.flush()
 
 
-for word in ["morrissey"]:
-    for sample in xrange(1, 51):
-        #for i in [.99, .98, .95, .9, .85, .8, .75, .7]:
-        for i in [.80]:
-            rate = success_rate(word, sample, i, 1000)
-            print "{}\t{}\t{}\t{}\t{}". format(word, str(sample), str(i), 
-                                         rate[0], rate[1])
-            sys.stdout.flush()
+# for word in ["morrissey"]:
+#     for sample in xrange(1, 51):
+#         #for i in [.99, .98, .95, .9, .85, .8, .75, .7]:
+#         for i in [.80]:
+#             rate = success_rate(word, sample, i, 1000)
+#             print "{}\t{}\t{}\t{}\t{}". format(word, str(sample), str(i), 
+#                                          rate[0], rate[1])
+#             sys.stdout.flush()
 
 
 """
